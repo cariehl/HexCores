@@ -3,7 +3,7 @@
 
 ## Description ##
 
-The hex cores provide power for committing to defense. Each core has a different effect if you start your turn with 10 or more Block, after surviving enemy attacks. Currently, the cores are triggered by Anchor's bonus block at the start of combat - this was an intentional choice, but may change in the future.
+The hex cores provide power for committing to defense. Each core has a different effect if you start your turn with 10 or more Block, after surviving enemy attacks.
 
 The three cores are:
 
