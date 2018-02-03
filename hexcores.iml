@@ -11,7 +11,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="Maven: com.megacrit.cardcrawl:slaythespire:013">
+      <library name="Maven: com.megacrit.cardcrawl:slaythespire:014">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../_lib/desktop-1.0.jar!/" />
         </CLASSES>
@@ -20,7 +20,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="Maven: basemod:basemod:1.2.1">
+      <library name="Maven: basemod:basemod:1.4.3">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../_ModTheSpire/mods/BaseMod.jar!/" />
         </CLASSES>
