@@ -22,7 +22,7 @@ I am not an artist, so none of the cores currently have artwork associated with 
 1. Run `mvn package`
 
 ## Installation ##
-1. Ensure ModTheSpire is properly installed (see the [readme](https://github.com/kiooeht/ModTheSpire/blob/master/README.md) for instructions).
+1. Ensure [ModTheSpire](https://github.com/kiooeht/ModTheSpire) and [BaseMod](https://github.com/t-larson/BaseMod) are properly installed (see their respective README files for more information).
 1. Build `HexCores.jar` from source, or download the latest release.
 1. Copy `HexCores.jar` to your ModTheSpire mods directory.
 1. Launch ModTheSpire and ensure both BaseMod and HexCores are selected.
