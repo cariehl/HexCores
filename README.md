@@ -19,10 +19,10 @@ I am not an artist, so none of the cores currently have artwork associated with 
 * Java 8+
 
 ## Building ##
-0. Run `mvn package`
+1. Run `mvn package`
 
 ## Installation ##
-0. Ensure ModTheSpire is properly installed (see the [readme](https://github.com/kiooeht/ModTheSpire/blob/master/README.md) for instructions).
-0. Build `HexCores.jar` from source, or download the latest release.
-0. Copy `HexCores.jar` to your ModTheSpire mods directory.
-0. Launch ModTheSpire and ensure both BaseMod and HexCores are selected.
+1. Ensure ModTheSpire is properly installed (see the [readme](https://github.com/kiooeht/ModTheSpire/blob/master/README.md) for instructions).
+1. Build `HexCores.jar` from source, or download the latest release.
+1. Copy `HexCores.jar` to your ModTheSpire mods directory.
+1. Launch ModTheSpire and ensure both BaseMod and HexCores are selected.
