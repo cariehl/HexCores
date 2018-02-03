@@ -27,7 +27,7 @@ public class HexCores implements PostInitializeSubscriber {
 
     public void receivePostInitialize() {
         // Mod badge
-        Texture badgeTexture = new Texture(Gdx.files.internal("img/BaseModBadge.png"));
+        Texture badgeTexture = new Texture(Gdx.files.internal("images/HexCoresBadge.png"));
         ModPanel settingsPanel = new ModPanel();
         settingsPanel.addLabel("This mod does not have any settings", 400.0f, 700.0f, (me) -> {});
         BaseMod.registerModBadge(badgeTexture, MODNAME, AUTHOR, DESCRIPTION, settingsPanel);

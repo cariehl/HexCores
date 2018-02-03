@@ -11,8 +11,8 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 public class TransformerCore extends CustomRelic {
     public static final String ID = "TransformerCore";
-    private static final String IMG = "images/relics/circlet.png";
-    private static final String OUTLINE = "images/relics/outline/circlet.png";
+    private static final String IMG = "images/relics/TransformerCore.png";
+    private static final String OUTLINE = "images/relics/outline/HexCore.png";
 
     private static final int BLOCK_AMT = 10;
     private static final int ENERGY_AMT = 1;

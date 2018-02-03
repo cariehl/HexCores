@@ -12,8 +12,8 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 public class AmplifyCore extends CustomRelic {
     public static final String ID = "AmplifyCore";
-    private static final String IMG = "images/relics/circlet.png";
-    private static final String OUTLINE = "images/relics/outline/circlet.png";
+    private static final String IMG = "images/relics/AmplifyCore.png";
+    private static final String OUTLINE = "images/relics/outline/HexCore.png";
 
     private static final int BLOCK_AMT = 10;
     private static final int DMG_AMT = 5;
