@@ -1,5 +1,5 @@
 # HexCores #
-**HexCores** is a mod for **Slay the Spire** that adds three new uncommon relics. Inspired by /u/Sweet_Azu over on /r/SlayTheSpire.
+**HexCores** is a mod for **Slay the Spire** that adds three new uncommon relics. Inspired by [this reddit post](https://www.reddit.com/r/slaythespire/comments/7uika3/relic_conceptideas_hexagonal_cores/) by /u/Sweet_Azu over on /r/SlayTheSpire.
 
 ## Description ##
 
@@ -26,3 +26,8 @@ I am not an artist, so the artwork for the cores is currently pretty bad. Anyone
 1. Build `HexCores.jar` from source, or download the latest release.
 1. Copy `HexCores.jar` to your ModTheSpire mods directory.
 1. Launch ModTheSpire and ensure both BaseMod and HexCores are selected.
+
+## Credits ##
+* @t-larson - Creator of BaseMod
+* @kiooeht - Creator of ModTheSpire
+* /u/Sweet_Azu - Original idea, found [here](https://www.reddit.com/r/slaythespire/comments/7uika3/relic_conceptideas_hexagonal_cores/)
