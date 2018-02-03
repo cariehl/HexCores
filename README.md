@@ -11,7 +11,7 @@ The three cores are:
 * Bulk Core - If you have 10 or more Block at the start of your turn, gain 1 Strength.
 * Transformer Core - If you have 10 or more Block at the start of your turn, gain 1 Energy.
 
-I am not an artist, so none of the cores currently have artwork associated with them. Anyone who wants to create art for these relics is welcome to do so!
+I am not an artist, so the artwork for the cores is currently pretty bad. Anyone who wants to create better art for these relics is welcome to do so!
 
 ## Requirements ##
 * ModTheSpire v2.1.0+ (https://github.com/kiooeht/ModTheSpire/releases)
