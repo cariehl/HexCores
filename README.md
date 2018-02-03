@@ -14,8 +14,8 @@ The three cores are:
 I am not an artist, so none of the cores currently have artwork associated with them. Anyone who wants to create art for these relics is welcome to do so!
 
 ## Requirements ##
-* ModTheSpire (https://github.com/kiooeht/ModTheSpire/releases)
-* BaseMod (https://github.com/t-larson/BaseMod/releases)
+* ModTheSpire v2.1.0+ (https://github.com/kiooeht/ModTheSpire/releases)
+* BaseMod v1.4.3+ (https://github.com/t-larson/BaseMod/releases)
 * Java 8+
 
 ## Building ##
