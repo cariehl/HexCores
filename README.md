@@ -16,7 +16,7 @@ I am not an artist, so the artwork for the cores is currently pretty bad. Anyone
 ## Requirements ##
 * SlayTheSpire v016+
 * ModTheSpire v2.4.0+ (https://github.com/kiooeht/ModTheSpire/releases)
-* BaseMod v1.6.5+ (https://github.com/daviscook477/BaseMod/releases)
+* BaseMod v2.1.3+ (https://github.com/daviscook477/BaseMod/releases)
 * Java 8+
 
 ## Building ##
