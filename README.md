@@ -14,6 +14,7 @@ The three cores are:
 I am not an artist, so the artwork for the cores is currently pretty bad. Anyone who wants to create better art for these relics is welcome to do so!
 
 ## Requirements ##
+* SlayTheSpire v016+
 * ModTheSpire v2.4.0+ (https://github.com/kiooeht/ModTheSpire/releases)
 * BaseMod v1.6.5+ (https://github.com/daviscook477/BaseMod/releases)
 * Java 8+
