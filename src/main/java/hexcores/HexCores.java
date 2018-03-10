@@ -16,10 +16,10 @@ import hexcores.relics.TransformerCore;
 
 import java.nio.charset.StandardCharsets;
 
-public class HexCores implements PostInitializeSubscriber,EditStringsSubscriber,EditRelicsSubscriber {
+public class HexCores implements PostInitializeSubscriber, EditStringsSubscriber, EditRelicsSubscriber {
     private static final String MODNAME = "Hex Cores";
     private static final String AUTHOR = "cariehl";
-    private static final String DESCRIPTION = "v1.0.0 NL Adds three new relics inspired by /u/Sweet_Azu.";
+    private static final String DESCRIPTION = "v1.1.0 NL Adds three new relics inspired by /u/Sweet_Azu.";
 
     public HexCores() {
         BaseMod.subscribeToPostInitialize(this);
