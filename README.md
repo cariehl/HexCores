@@ -14,20 +14,25 @@ The three cores are:
 I am not an artist, so the artwork for the cores is currently pretty bad. Anyone who wants to create better art for these relics is welcome to do so!
 
 ## Requirements ##
-* ModTheSpire v2.1.0+ (https://github.com/kiooeht/ModTheSpire/releases)
-* BaseMod v1.4.3+ (https://github.com/t-larson/BaseMod/releases)
+* ModTheSpire v2.4.0+ (https://github.com/kiooeht/ModTheSpire/releases)
+* BaseMod v1.6.5+ (https://github.com/daviscook477/BaseMod/releases)
 * Java 8+
 
 ## Building ##
 1. Run `mvn package`
 
 ## Installation ##
-1. Ensure [ModTheSpire](https://github.com/kiooeht/ModTheSpire) and [BaseMod](https://github.com/t-larson/BaseMod) are properly installed (see their respective README files for more information).
+1. Ensure [ModTheSpire](https://github.com/kiooeht/ModTheSpire) and [BaseMod](https://github.com/daviscook477/BaseMod) are properly installed (see their respective README files for more information).
 1. Build `HexCores.jar` from source, or download the latest release.
 1. Copy `HexCores.jar` to your ModTheSpire mods directory.
 1. Launch ModTheSpire and ensure both BaseMod and HexCores are selected.
 
 ## Credits ##
-* @t-larson - Creator of BaseMod
-* @kiooeht - Creator of ModTheSpire
 * /u/Sweet_Azu - Original idea, found [here](https://www.reddit.com/r/slaythespire/comments/7uika3/relic_conceptideas_hexagonal_cores/)
+* @t-larson - Creator of BaseMod
+* @daviscook477 - Maintainer of BaseMod
+* @kiooeht - Creator of ModTheSpire
+
+### Other Contributors ###
+
+* @pk27602017
