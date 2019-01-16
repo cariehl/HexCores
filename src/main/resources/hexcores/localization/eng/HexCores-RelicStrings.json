@@ -1,0 +1,28 @@
+{
+  "hexcores:AmplifyCore": {
+    "NAME": "Amplify Core",
+    "FLAVOR": "The best defense is a good offense.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, if you have at least #b",
+      " #yBlock, deal #b",
+      " damage to ALL enemies."
+    ]
+  },
+  "hexcores:BulkCore": {
+    "NAME": "Bulk Core",
+    "FLAVOR": "The best defense is raw power.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, if you have at least #b",
+      " #yBlock, gain #b",
+      " #yStrength."
+    ]
+  },
+  "hexcores:TransformCore": {
+    "NAME": "Transform Core",
+    "FLAVOR": "The best defense is patience.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, if you have at least #b",
+      " #yBlock, gain [E] [E]"
+    ]
+  }
+}

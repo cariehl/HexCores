@@ -1,0 +1,10 @@
+{
+  "modid": "${project.artifactId}",
+  "name": "${project.name}",
+  "author_list": ["Kazel"],
+  "description": "Adds three new relics with a common theme.",
+  "version": "${project.version}",
+  "sts_version": "${SlayTheSpire.version}",
+  "mts_version": "${ModTheSpire.version}",
+  "dependencies": ["basemod"]
+}

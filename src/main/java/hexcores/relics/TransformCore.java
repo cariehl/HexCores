@@ -2,24 +2,22 @@ package hexcores.relics;
 
 import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.graphics.Texture;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
+import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import hexcores.HexCores;
 
-public class AmplifyCore extends CustomRelic
+public class TransformCore extends CustomRelic
 {
-    public static final String ID = "hexcores:AmplifyCore";
-    public static final String IMG = HexCores.assetPath("images/relics/AmplifyCore.png");
+    public static final String ID = "hexcores:TransformCore";
+    public static final String IMG = HexCores.assetPath("images/relics/TransformCore.png");
     public static final String OUTLINE = HexCores.assetPath("images/relics/outline/HexCore.png");
 
     public static final int BLOCK_AMT = 10;
-    public static final int DMG_AMT = 10;
+    public static final int ENERGY_AMT = 2;
 
 
-    public AmplifyCore()
+    public TransformCore()
     {
         super(ID, new Texture(IMG), new Texture(OUTLINE), RelicTier.UNCOMMON, LandingSound.HEAVY);
     }
@@ -32,7 +30,7 @@ public class AmplifyCore extends CustomRelic
             flash();
             // TODO: Is this the right order to stack things?
             AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-            AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(null, DamageInfo.createDamageMatrix(DMG_AMT, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL, true));
+            AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(ENERGY_AMT));
         }
     }
 
@@ -40,6 +38,6 @@ public class AmplifyCore extends CustomRelic
     @Override
     public String getUpdatedDescription()
     {
-        return DESCRIPTIONS[0] + BLOCK_AMT + DESCRIPTIONS[1] + DMG_AMT + DESCRIPTIONS[2];
+        return DESCRIPTIONS[0] + BLOCK_AMT + DESCRIPTIONS[1];
     }
 }

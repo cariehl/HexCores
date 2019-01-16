@@ -3,30 +3,15 @@
 
 ## Description ##
 
-The hex cores provide power for committing to defense. Each core has a different effect if you start your turn with 10 or more Block, after surviving enemy attacks.
+The hex cores provide power for over-committing to defense. Each core has a different effect if you start your turn with 10 or more Block, after taking damage from enemies.
 
 The three cores are:
 
-* Amplify Core - If you have 10 or more Block at the start of your turn, deal 5 damage to ALL enemies.
-* Bulk Core - If you have 10 or more Block at the start of your turn, gain 1 Strength.
-* Transformer Core - If you have 10 or more Block at the start of your turn, gain 1 Energy.
+* Amplify Core - If you have 10 or more Block at the start of your turn, deal 10 damage to ALL enemies.
+* Bulk Core - If you have 10 or more Block at the start of your turn, gain 2 Strength.
+* Transform Core - If you have 10 or more Block at the start of your turn, gain 2 Energy.
 
 I am not an artist, so the artwork for the cores is currently pretty bad. Anyone who wants to create better art for these relics is welcome to do so!
-
-## Requirements ##
-* SlayTheSpire v016+
-* ModTheSpire v2.4.0+ (https://github.com/kiooeht/ModTheSpire/releases)
-* BaseMod v2.1.3+ (https://github.com/daviscook477/BaseMod/releases)
-* Java 8+
-
-## Building ##
-1. Run `mvn package`
-
-## Installation ##
-1. Ensure [ModTheSpire](https://github.com/kiooeht/ModTheSpire) and [BaseMod](https://github.com/daviscook477/BaseMod) are properly installed (see their respective README files for more information).
-1. Build `HexCores.jar` from source, or download the latest release.
-1. Copy `HexCores.jar` to your ModTheSpire mods directory.
-1. Launch ModTheSpire and ensure both BaseMod and HexCores are selected.
 
 ## Credits ##
 * /u/Sweet_Azu - Original idea, found [here](https://www.reddit.com/r/slaythespire/comments/7uika3/relic_conceptideas_hexagonal_cores/)
