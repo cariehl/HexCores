@@ -29,8 +29,7 @@ public class BulkCore extends CustomRelic
     {
         if (AbstractDungeon.player.currentBlock >= 10) {
             flash();
-            // TODO: Is this the right order to stack things?
-            AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
+            AbstractDungeon.actionManager.addToBottom(new RelicAboveCreatureAction(AbstractDungeon.player, this));
             AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new StrengthPower(AbstractDungeon.player, STR_AMT), STR_AMT));
         }
     }

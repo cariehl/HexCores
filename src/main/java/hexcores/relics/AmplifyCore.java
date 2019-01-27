@@ -30,8 +30,7 @@ public class AmplifyCore extends CustomRelic
     {
         if (AbstractDungeon.player.currentBlock >= 10) {
             flash();
-            // TODO: Is this the right order to stack things?
-            AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
+            AbstractDungeon.actionManager.addToBottom(new RelicAboveCreatureAction(AbstractDungeon.player, this));
             AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(null, DamageInfo.createDamageMatrix(DMG_AMT, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL, true));
         }
     }
